@@ -10,8 +10,7 @@ int main(void) {
 
   double celsius, fahrenheit;
   convertion();
-  c_toF(celsius, &fahrenheit);
-  f_toC(fahrenheit, &celsius);
+  
 
   return 0;
 }
