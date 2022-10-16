@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-void conversor();
+void convertion();
 double f_toC(double, double *);
 double c_toF(double, double *);
 
@@ -9,14 +9,14 @@ double c_toF(double, double *);
 int main(void) {
 
   double celsius, fahrenheit;
-  conversor();
+  convertion();
   c_toF(celsius, &fahrenheit);
   f_toC(fahrenheit, &celsius);
 
   return 0;
 }
 
-void conversor()
+void convertion()
 {
   int option;
   double celsius, fahrenheit;
